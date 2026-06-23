@@ -1,6 +1,6 @@
 .page-hero{
     position:relative;
-    min-height:280px;
+    min-height:250px;
     background:#4e5b73;
     display:flex;
     align-items:center;
@@ -20,8 +20,8 @@
 }
 
 .page-content h1{
-    font-size:4rem;
-    font-weight:800;
+    font-size:3.5rem;
+    font-weight:700;
     margin-bottom:20px;
 }
 

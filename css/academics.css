@@ -1,0 +1,229 @@
+.academic-hero{
+    margin-top:85px;
+    min-height:250px;
+    background:linear-gradient(rgba(10,26,54,.78), rgba(10,26,54,.78)),
+    url('../assets/images/home/gandhi darsan.jpg') center/cover;
+    display:flex;
+    align-items:center;
+    color:#fff;
+}
+
+.academic-hero-content h1{
+    font-size:4rem;
+    font-weight:800;
+    margin-bottom:18px;
+}
+
+.academic-hero-content p{
+    font-size:1.2rem;
+    max-width:700px;
+    color:rgba(255,255,255,.88);
+}
+
+.academic-overview{
+    padding:50px 0;
+    background:#fff;
+}
+
+.academic-grid{
+    display:grid;
+    grid-template-columns:48% 52%;
+    gap:55px;
+    align-items:center;
+}
+
+.academic-image img{
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:30px;
+}
+
+.academic-content h2{
+    font-size:3rem;
+    line-height:1.15;
+    color:#0A1A36;
+    margin:18px 0 24px;
+}
+
+.academic-content p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:28px;
+}
+
+.academic-points{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    color:#0A1A36;
+    font-weight:600;
+}
+
+.streams-section{
+    padding:35px 0;
+    background:#f8f9fb;
+}
+
+.streams-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    margin-top:35px;
+}
+
+.stream-card{
+    background:#fff;
+    border-radius:24px;
+    padding:36px 30px;
+    box-shadow:0 14px 40px rgba(0,0,0,.07);
+}
+
+.stream-icon{
+    font-size:2.2rem;
+    margin-bottom:18px;
+}
+
+.stream-card h3{
+    color:#0A1A36;
+    margin-bottom:20px;
+}
+
+.stream-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.stream-card li{
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+    color:#555;
+}
+
+/* Learning environment section */
+.learning-section{
+    padding:40px 0;
+    background:#fff;
+}
+
+.learning-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    margin-top:50px;
+}
+
+.learning-card{
+    background:#f8f9fb;
+    border-radius:24px;
+    padding:35px 30px;
+    transition:.3s;
+}
+
+.learning-card:hover{
+    transform:translateY(-6px);
+}
+
+.learning-icon{
+    font-size:2rem;
+    margin-bottom:18px;
+}
+
+.learning-card h3{
+    color:#0A1A36;
+    margin-bottom:15px;
+}
+
+.learning-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* Approach section */
+
+.approach-section{
+    padding:80px 0;
+    background:#f8f9fb;
+}
+
+.approach-wrapper{
+    display:grid;
+    grid-template-columns:48% 52%;
+    gap:60px;
+    align-items:center;
+}
+
+.approach-content h2{
+    font-size:3rem;
+    line-height:1.15;
+    color:#0A1A36;
+    margin:18px 0 24px;
+}
+
+.approach-content p{
+    color:#666;
+    line-height:1.9;
+}
+
+.approach-list{
+    display:grid;
+    gap:18px;
+}
+
+.approach-list div{
+    background:#fff;
+    border-radius:20px;
+    padding:24px 28px;
+    display:flex;
+    align-items:center;
+    gap:24px;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.approach-list h4{
+    color:#C28A2E;
+    font-size:1.4rem;
+    margin:0;
+}
+
+.approach-list span{
+    color:#0A1A36;
+    font-weight:700;
+}
+
+@media(max-width:991px){
+    .approach-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .approach-content h2{
+        font-size:2rem;
+    }
+}
+
+@media(max-width:991px){
+    .academic-grid,
+    .streams-grid{
+        grid-template-columns:1fr;
+    }
+
+    .academic-hero-content h1{
+        font-size:2.5rem;
+    }
+
+    .academic-content h2{
+        font-size:2rem;
+    }
+
+    .academic-image img{
+        height:320px;
+    }
+
+    .academic-points{
+        grid-template-columns:1fr;
+    }
+    .learning-grid{
+        grid-template-columns:1fr;
+    }
+}
