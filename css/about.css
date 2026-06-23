@@ -106,12 +106,6 @@
     line-height:1.8;
 }
 
-@media(max-width:991px){
-    .vision-grid{
-        grid-template-columns:1fr;
-    }
-}
-
 /* Leadership Section */
 .leadership-section{
     padding:80px 0;
@@ -155,12 +149,6 @@
     color:#C28A2E;
     margin:0;
     font-weight:600;
-}
-
-@media(max-width:991px){
-    .leadership-grid{
-        grid-template-columns:1fr;
-    }
 }
 
 /* Timeline Section */
@@ -225,4 +213,105 @@
 .timeline-item p{
     color:#666;
     line-height:1.8;
+}
+
+/* =========================
+   ABOUT PAGE RESPONSIVE
+========================= */
+
+@media (max-width: 991px){
+
+    .page-hero{
+        min-height:auto;
+        margin-top:70px;
+        padding:70px 0;
+    }
+
+    .page-content h1{
+        font-size:2.5rem;
+    }
+
+    .page-content p{
+        font-size:1rem;
+    }
+
+    .story-section,
+    .vision-section,
+    .leadership-section,
+    .timeline-section{
+        padding:40px 0;
+    }
+
+    .story-grid{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .story-image img{
+        height:320px;
+    }
+
+    .story-content h2{
+        font-size:2rem;
+    }
+
+    .story-highlights{
+        grid-template-columns:1fr;
+        gap:12px;
+    }
+
+    .vision-grid,
+    .leadership-grid{
+        grid-template-columns:1fr;
+    }
+
+    .vision-block{
+        padding:35px 28px;
+    }
+
+    .vision-block h2,
+    .timeline-heading h2{
+        font-size:2rem;
+    }
+
+    .timeline{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .timeline::before{
+        display:none;
+    }
+
+    .timeline-heading{
+        margin-bottom:35px;
+    }
+}
+
+@media (max-width: 575px){
+
+    .page-content h1{
+        font-size:2rem;
+    }
+
+    .story-content h2{
+        font-size:1.8rem;
+    }
+
+    .story-image img{
+        height:260px;
+        border-radius:22px;
+    }
+
+    .vision-block{
+        padding:28px 22px;
+    }
+
+    .leader-card{
+        padding:30px 22px;
+    }
+
+    .timeline-item{
+        padding:24px 22px;
+    }
 }
