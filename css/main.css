@@ -41,54 +41,120 @@ a {
 
 /* NAVBAR */
 
-.custom-navbar{
-    background:#fff;
-    box-shadow:0 4px 20px rgba(0,0,0,.06);
-    padding:12px 0;
+.custom-navbar {
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
+    padding: 12px 0;
 }
 
-.logo{
-    width:60px;
-    height:60px;
-    object-fit:contain;
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
 }
 
-.brand-text{
-    margin-left:12px;
+.brand-text {
+    margin-left: 12px;
 }
 
-.brand-text h5{
-    margin:0;
-    font-size:1rem;
-    font-weight:700;
-    color:#0A1A36;
+.brand-text h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0A1A36;
 }
 
-.brand-text span{
-    font-size:.78rem;
-    color:#777;
+.brand-text span {
+    font-size: .78rem;
+    color: #777;
 }
 
-.nav-link{
-    color:#222;
-    font-weight:500;
-    margin:0 10px;
+.nav-link {
+    color: #222;
+    font-weight: 500;
+    margin: 0 10px;
 }
 
-.nav-link:hover{
-    color:#C28A2E;
+.nav-link:hover {
+    color: #C28A2E;
 }
 
-.apply-btn{
-    background:#C28A2E;
-    color:#fff;
-    padding:10px 22px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:600;
+.apply-btn {
+    background: #C28A2E;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.apply-btn:hover{
-    background:#a87425;
-    color:#fff;
+.apply-btn:hover {
+    background: #a87425;
+    color: #fff;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background: #0A1A36;
+    color: #fff;
+    padding: 80px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-logo {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.footer-col h4,
+.footer-col h5 {
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: rgba(255, 255, 255, .75);
+    line-height: 1.8;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col li {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: #C28A2E;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: rgba(255, 255, 255, .6);
+}
+
+@media(max-width:991px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
 }
