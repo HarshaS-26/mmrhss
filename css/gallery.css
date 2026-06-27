@@ -91,6 +91,80 @@
     object-fit:cover;
 }
 
+.image-modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.9);
+    z-index:9999;
+    align-items:center;
+    justify-content:center;
+}
+
+.image-modal img{
+    max-width:90%;
+    max-height:85vh;
+    border-radius:12px;
+}
+
+.modal-close{
+    position:absolute;
+    top:25px;
+    right:35px;
+    color:#fff;
+    font-size:42px;
+    cursor:pointer;
+    z-index:10000;
+}
+
+.modal-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(255,255,255,.2);
+    color:#fff;
+    border:none;
+    font-size:45px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.modal-btn:hover{
+    background:rgba(255,255,255,.35);
+}
+
+.prev{
+    left:30px;
+}
+
+.next{
+    right:30px;
+}
+
+@media(max-width:768px){
+    .modal-btn{
+        font-size:30px;
+        width:45px;
+        height:45px;
+    }
+
+    .prev{
+        left:10px;
+    }
+
+    .next{
+        right:10px;
+    }
+
+    .modal-close{
+        top:15px;
+        right:20px;
+        font-size:36px;
+    }
+}
+
 @media(max-width:991px){
     .gallery-grid{
         grid-template-columns:1fr;
