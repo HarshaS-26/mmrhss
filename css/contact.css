@@ -1,7 +1,9 @@
 .contact-hero{
     margin-top:65px;
     min-height:250px;
-    background:#4e5b73;
+    background:
+    linear-gradient(rgba(10,26,54,.78), rgba(10,26,54,.78)),
+    url('../assets/images/contact.jpg') center 40% / cover no-repeat;
     display:flex;
     align-items:center;
 }
