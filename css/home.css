@@ -509,7 +509,7 @@
 
 .cta-box{
     background:
-        linear-gradient(135deg, rgba(10,26,54,.96), rgba(79,93,117,.92));
+        linear-gradient(135deg, rgba(68, 43, 23, 0.96), rgba(79,93,117,.92));
     border-radius:32px;
     padding:50px 55px;
     text-align:center;
