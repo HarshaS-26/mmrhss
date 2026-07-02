@@ -32,44 +32,125 @@
     color:rgba(255,255,255,.9);
 }
 
+/* STORY SECTION */
+
 .story-section{
-    padding:50px 0 30px;
+    padding:35px 0 55px;
+    background:#fff;
 }
 
 .story-grid{
     display:grid;
-    grid-template-columns:48% 52%;
-    gap:50px;
+    grid-template-columns:42% 58%;
+    gap:55px;
     align-items:center;
+}
+
+.story-grid-second{
+    margin-top:35px;
+    grid-template-columns:58% 42%;
 }
 
 .story-image img{
     width:100%;
-    height:500px;
+    height:450px;
     object-fit:cover;
-    border-radius:30px;
+    object-position:50% 18%;
+    border-radius:28px;
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
 }
 
 .story-content h2{
-    font-size:3rem;
+    font-size:2.8rem;
     line-height:1.15;
     color:#0A1A36;
-    margin-bottom:30px;
+    margin-bottom:26px;
+    font-weight:600;
 }
 
 .story-content p{
-    color:#666;
+    color:#5d6b82;
     line-height:1.9;
-    margin-bottom:20px;
+    margin-bottom:18px;
+    font-size:1.03rem;
 }
 
 .story-highlights{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:18px;
-    margin-top:40px;
+    gap:14px;
+    margin-top:28px;
+}
+
+.story-highlights div{
+    background:#F8FAFC;
+    border:1px solid #E5E7EB;
+    border-radius:14px;
+    padding:14px 16px;
     color:#0A1A36;
-    font-weight:600;
+    font-weight:700;
+}
+
+.story-image-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px;
+}
+
+.story-grid-img{
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 14px 35px rgba(0,0,0,.09);
+}
+
+.story-grid-img.big{
+    grid-column:span 2;
+}
+
+.story-grid-img img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    object-position:center 20%;
+    display:block;
+}
+
+.story-grid-img.big img{
+    height:280px;
+    object-position:center 15%;
+}
+
+@media(max-width:991px){
+    .story-grid,
+    .story-grid-second{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .story-image img{
+        height:320px;
+    }
+
+    .story-content h2{
+        font-size:2rem;
+    }
+
+    .story-highlights{
+        grid-template-columns:1fr;
+    }
+
+    .story-image-grid{
+        grid-template-columns:1fr;
+    }
+
+    .story-grid-img.big{
+        grid-column:auto;
+    }
+
+    .story-grid-img img,
+    .story-grid-img.big img{
+        height:220px;
+    }
 }
 /* Vision Section */
 .vision-section{

@@ -4,7 +4,7 @@
 
 .hero-section{
     position:relative;
-    min-height:680px;
+    min-height:650px;
     padding-top:100px;
     padding-bottom:70px;
     background:linear-gradient(135deg, #F8FAFC 0%, #FBF4E8 100%);
@@ -46,7 +46,7 @@
 
 .hero-left h1{
     font-family:'Playfair Display', serif;
-    font-size:4rem;
+    font-size:3.7rem;
     font-weight:800;
     line-height:1.05;
     color:#0A1A36;
@@ -126,22 +126,35 @@
 }
 
 .hero-right{
-    flex:0 0 45%;
+    flex:0 0 46%;
 }
 
-.hero-image-card{
-    position:relative;
-    border-radius:32px;
-    overflow:hidden;
-    box-shadow:0 25px 70px rgba(10,26,54,.18);
+.hero-gallery{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
 }
 
-.hero-image-card img{
+.hero-main-image img{
     width:100%;
-    height:570px;
+    height:380px;
     object-fit:cover;
-    object-position:50% 25%;
-    
+    border-radius:28px;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.hero-small-images{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.small-card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
 }
 
 /* FLOATING CARD */
