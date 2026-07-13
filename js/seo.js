@@ -28,24 +28,10 @@ const seoData = {
         image: "https://mmrhsssainikschool.com/assets/images/mmrhssmain.jpeg"
     },
 
-    "facilities.html": {
-        title: "Campus Facilities | MMRHSS & Sainik School",
-        description: "Explore classrooms, laboratories, library, sports facilities and student amenities at MMRHSS & Sainik School.",
-        canonical: "https://mmrhsssainikschool.com/facilities.html",
-        image: "https://mmrhsssainikschool.com/assets/images/mmrhssmain.jpeg"
-    },
-
     "gallery.html": {
         title: "Gallery | MMRHSS & Sainik School",
         description: "Browse campus life, academics, student activities, events and achievements through our gallery.",
         canonical: "https://mmrhsssainikschool.com/gallery.html",
-        image: "https://mmrhsssainikschool.com/assets/images/mmrhssmain.jpeg"
-    },
-
-    "news.html": {
-        title: "News & Events | MMRHSS & Sainik School",
-        description: "Stay updated with the latest news, achievements, announcements and events from MMRHSS & Sainik School.",
-        canonical: "https://mmrhsssainikschool.com/news.html",
         image: "https://mmrhsssainikschool.com/assets/images/mmrhssmain.jpeg"
     },
 
