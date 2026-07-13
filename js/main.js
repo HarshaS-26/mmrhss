@@ -12,3 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
             if (footer) footer.innerHTML = data;
         });
 });
+
