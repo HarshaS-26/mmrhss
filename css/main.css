@@ -109,8 +109,8 @@ a {
 }
 
 .footer-logo {
-    width: 65px;
-    height: 65px;
+    width: 72px;
+    height: 72px;
     object-fit: contain;
     background: #fff;
     padding: 9px;
@@ -177,4 +177,40 @@ a {
         width: 58px;
         height: 58px;
     }
+}
+
+/* Footer Social */
+
+.social-title{
+    margin-top:22px;
+}
+
+.footer-social{
+    display:flex;
+    gap:14px;
+    margin-top:14px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.15rem;
+    transition:.3s;
+}
+
+.footer-social a:hover{
+    background:#C28A2E;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+.footer-contact i{
+    color:#C28A2E;
+    margin-right:8px;
 }
