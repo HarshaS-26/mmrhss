@@ -3,7 +3,7 @@
     min-height:280px;
     background:
         linear-gradient(rgba(10,26,54,.78), rgba(10,26,54,.78)),
-        url('../assets/images/sainik.jpeg') center/cover;
+        url('../assets/images/sainik/sainik.jpeg') center/cover;
     display:flex;
     align-items:center;
     color:#fff;

@@ -2,7 +2,7 @@
     position:relative;
     min-height:250px;
     background:linear-gradient(rgba(10,26,54,.78), rgba(10,26,54,.78)),
-    url('../assets/images/students.jpeg') center/cover;
+    url('../assets/images/home/students.webp') center/cover;
     display:flex;
     align-items:center;
     margin-top:85px;

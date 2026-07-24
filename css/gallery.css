@@ -3,7 +3,7 @@
     min-height: 250px;
     background:
         linear-gradient(rgba(10, 26, 54, .78), rgba(10, 26, 54, .78)),
-        url('../assets/images/home/mmrhss.jpg') center/cover;
+        url('../assets/images/home/mmrhss1.webp') center/cover;
     display: flex;
     align-items: center;
 }
