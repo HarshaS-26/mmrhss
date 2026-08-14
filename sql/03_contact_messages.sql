@@ -1,3 +1,8 @@
+/*
+=====================================================
+CONTACT MESSAGES TABLE
+=====================================================
+*/
 create table if not exists public.contact_messages (
     id uuid primary key default gen_random_uuid(),
 
